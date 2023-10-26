@@ -8,7 +8,7 @@ int main(){
     else    {
         fprintf(f,"%s\n","This the first program in file handling");
         fputc('A',f);
-        fputs("\nDemonstration for fputs function  ",f);
+        fputs("\nDemonstration for fputs   ",f);
     }
     fclose(f);
     return 0;
